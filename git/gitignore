@@ -1421,3 +1421,31 @@ ASALocalRun/
 
 # End of https://www.gitignore.io/api/data,django,windows,database,visualstudio
 
+*.docx#
+*.docx~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
