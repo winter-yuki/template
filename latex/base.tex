@@ -1,0 +1,55 @@
+
+
+%%% Tables
+\usepackage{array,tabularx,tabulary,booktabs}
+\usepackage{longtable} 
+\usepackage{multirow}
+
+%%% Images
+\usepackage{graphicx}  
+\graphicspath{{images/}{images2/}}  
+\setlength\fboxsep{3pt} 
+\setlength\fboxrule{1pt}
+\usepackage{wrapfig} 
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+
+%%% AMS
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} 
+\usepackage{icomma}
+
+%%% Fields
+\usepackage{geometry}
+% \geometry{top=25mm}
+% \geometry{bottom=35mm}
+% \geometry{left=35mm}
+% \geometry{right=20mm}
+
+%%% Diff
+\usepackage{cmap} % Search in PDF
+\usepackage{mathtext} 
+\usepackage{xspace}
+\usepackage{etoolbox} % Logical operators
+\usepackage{listings}
+\usepackage{color}
+\usepackage{lastpage}
+\usepackage{soul}
+\usepackage{hyperref}
+\usepackage[usenames,dvipsnames,svgnames,table,rgb]{xcolor}
+\usepackage{csquotes}
+\usepackage{multicol}
+\usepackage{array}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\mathtoolsset{showonlyrefs=true} % Numerete only formules with references
+
+\newcommand*{\yooline}[1]{\overline{\overline{#1}}}
+\newcommand*{\yeqdef}{\overset{\underset{\mathrm{def}}{}}{=}}
+\newcommand*{\Pn}{\ensuremath{\mathbf{P}^n}}
+\newcommand*{\R}{\ensuremath{\mathbb R}\xspace}
+\newcommand*{\Laplace}{\mathop{}\!\mathbin\bigtriangleup}
+\newcommand*{\DAlambert}{\mathop{}\!\mathbin\Box}
+\DeclareMathOperator{\sgn}{\mathop{sgn}}
